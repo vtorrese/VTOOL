@@ -1,0 +1,308 @@
+﻿/* balises génériques */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #bfbfbf;
+    background: black;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+}
+
+h1 a {
+   color: white;
+}
+
+a {
+	text-decoration : none;
+	color : #F5A320;
+}
+
+fieldset {
+	margin : 2% 0% 0% 0%;
+	background-color:#454031;
+	padding:16px;	
+}
+
+table {
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+	font-size : small;
+	text-align : center;
+	border: 1px solid white;
+}
+
+th {
+    
+    margin: 2px;
+	padding : 1px;
+	font-size : 10px;
+	background-color : white;
+	color : black;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+	
+}
+
+/* balises spécifiques */
+
+ /* Les ID */
+ #logo {
+    text-align: center; 
+	color : #F5A320;
+	font-size : small;
+ }
+ 
+#logo img {
+	width : 10%;
+	height : auto;
+}
+ 
+ #connection a {
+	 font-size : small;
+	 
+ }
+ 
+ #progression {
+	clear : both;
+	width : 100%;
+}
+
+ #tdbsession {
+	width : auto;
+	margin : 2% 1% 0% 0%;
+	display : inline-block;
+	float : left;
+	font-size : small;
+}
+
+#table_mtclf {
+	display : inline-block;
+	float : left;
+}
+
+#table_lien {
+	float : left;
+	margin : 0% 0% 0% 1%;
+}
+
+#table_consultation {
+	height : auto;
+	width : auto;	
+}
+
+#table_consultation td {
+	padding : 2%;
+	width : auto;
+}
+
+#collectif_consultation {
+	position : relative;
+	height : 500px;
+	overflow: auto;
+}
+
+#export {
+	display : none;
+} 
+
+#ttexport {
+	display : none;
+}
+
+#parents {
+	display : none;
+}
+
+#parents ul.simple{
+width: 100% ;
+color : #F5A320;
+font-size : small;
+background : #B6BFB8;
+}
+
+#parents ul.simple li {
+display:block;
+width : 25%;
+height : 20px;
+float:left;
+}
+
+#parents ul.simple li[float="left"] + li {
+float:none;
+}
+
+#occurrences {
+	display : none;
+}
+
+#occurrences ul.simple{
+width: 100% ;
+color : #F5A320;
+font-size : small;
+background : #B6BFB8;
+}
+
+#occurrences ul.simple li {
+display:block;
+width : 25%;
+height : 20px;
+float:left;
+}
+
+#occurrences ul.simple li[float="left"] + li {
+float:none;
+}
+
+#table_resultat {
+	display : inline-block;
+	float : left;
+}
+
+#table_resultat table, td, a {
+	text-align : center;
+	color : inherit;
+}
+
+#table_resultat th {
+	color : #F5A320;
+	font-weight : bold;
+	font-size : small;
+}
+
+#table_occurence {
+	display : inline-block;
+	float : left;
+}
+
+#table_occurence th {
+	color : #F5A320;
+	font-weight : bold;
+	font-size : small;
+}
+ 
+ 
+#camembert_fluxrss {
+	display : inline-block;
+	float : left;
+}
+
+#camembert_mtclf {
+	float : left;
+}
+
+#tableauperformance {
+	position : relative;
+	height : 100px;
+	width : auto;
+	overflow: auto;
+}
+
+#graphique_occ {
+	position: relative;
+}
+
+#table_occ {
+	position : relative;
+	height : 30%;
+	width : auto;
+	overflow: auto;
+}
+
+#table_occ th {
+	width:200px;
+}
+
+#tutoriel {
+	position : relative;
+	height : 400px;
+	width : auto;
+	overflow: auto;
+}
+ /* Les Class */
+.myButton {
+	color : #F5A320;
+	font-weight : bold;
+	width: auto;
+	height : 3%;
+	padding: 1 1 1 1;
+	margin : 0% 0% 1% 0%;
+	cursor:pointer;
+	background: #717475;
+	display : inline-block;
+	float : left;
+}
+
+.progression {
+	clear : both;
+	width : 100%;
+}
+
+.menu input {
+	color : #F5A320;
+	font-weight : bold;
+	width: 15%;
+	height : 3%;
+	margin: 0;
+	padding: 0;
+	cursor:pointer;
+	background: #717475;
+}
+
+.menu_ex input {
+	color : #F5A320;
+	font-weight : bold;
+	width: 17%;
+	height : 3%;
+	cursor:pointer;
+	background: #717475;
+	float : left; 
+	margin : 1% 0% 0% 1%;
+}
+
+.label_orange {
+	color : #F5A320;
+	font-weight : bold;
+}
+
+.container {
+	width: 50%;
+  margin: 15px;
+  background-color : black;
+  padding : 10%;
+  
+  border : 1px solid white;
+}
+
+.chart-container {
+  position: relative;
+  display : inline-block;
+  float : left;
+  height: 40vh;
+  width: 30vw;
+  margin : 0% 2% 0% 0%;
+}
+
+.node {
+		cursor: pointer;
+	}
+
+.node circle {
+	  fill: black;
+	  stroke: #F5A320;
+	  stroke-width: 2px;
+	}
+
+.node text {
+	  font: 10px sans-serif;
+	  color : white;
+	}
+
+.link {
+	  fill: none;
+	  stroke: black;
+	  stroke-width: 1px;
+}
