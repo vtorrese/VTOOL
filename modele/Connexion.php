@@ -10,7 +10,7 @@ class Connexion
 	{ //connection à la base de donnée exadart     
 		try 
 		{      
-			$this->connectionBDD = new PDO('mysql:host=db691871414.db.1and1.com;dbname=db691871414;charset=utf8', 'dbo691871414', 'Vtool_1969');
+			$this->connectionBDD = new PDO('mysql:host=xx;dbname=xx;charset=utf8', 'd4', '');
 		}
 		catch(Exception $e) 
 		{
